@@ -45,6 +45,6 @@ int main(int argc, char const *argv[])
     }
     totalPrice+=ticketPrice;
 
-    printf("Il prezzo totale e' di %d euro", totalPrice);
+    printf("Il prezzo totale e' di %d euro \n", totalPrice);
     return 0;
 }
