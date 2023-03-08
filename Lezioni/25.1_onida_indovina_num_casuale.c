@@ -5,11 +5,11 @@
 
 int main(int argc, char const *argv[]) {
     
-    srand(TIME(NULL));
+    srand(time(NULL));
     int numWin, numIn;
     bool flag = 0;
 
-    bunWin = rand()%100+1
+    numWin = rand()%100+1
 
     for (int i = 0; i < 10; i++) {
 
